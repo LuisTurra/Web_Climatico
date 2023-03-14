@@ -1,0 +1,124 @@
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a.hover {
+    opacity: 0.7;
+}
+
+body {
+    margin-left: 5vw;
+    margin-right: 5vw;   
+}
+
+nav {
+    border-bottom-left-radius:  30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    background: #23232e;
+    height: 70px;
+    justify-content: center;
+}
+
+.nav-list {
+    width: 80vw;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-list li {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+#titulo-dados {
+    width: 100%;
+    margin-top: 50px;
+}
+
+#titulo-dados h2 {
+    text-align: center;
+}
+
+#titulo-dados hr {
+    margin-top: 5px;
+}
+
+#banco-de-dados {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-top: 50px;
+    width: 80%; 
+    height: 800px;
+    overflow-y: scroll;
+}
+
+table {
+    width: 100%;
+}
+
+
+
+#temperatura, #umidade, #co {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    height: 300px;
+    width: 50%;
+    margin-top: 10vh;
+    background-color: rgb(177, 177, 177);
+    border-radius: 30px;
+    box-shadow: 7px 7px 5px grey;
+}
+
+#temp-titulo, #umid-titulo, #co-titulo {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: flex-start;
+    margin-top: 20px;
+    
+}
+
+
+#temp-box, #umid-box, #co-box {
+    display: flex;
+    margin-bottom: 45px;
+    height: 164px;
+    width: 164px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 30px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 7px 7px 5px grey;
+}
+
+#temp-box h1, #umid-box h1, #co-box  h1 {
+    margin-top: 30%;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#temp-box h2, #umid-box h2, #co-box h2 {
+    margin-bottom: 10%;
+}
+
